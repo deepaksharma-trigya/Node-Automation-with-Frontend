@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "31902000000145220",
+      "name": "deepakProject",
+      "domain": {
+        "id": "10120436885",
+        "name": "deepakproject-905328786.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "905328786",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

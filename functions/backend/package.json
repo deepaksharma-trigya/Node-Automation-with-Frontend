@@ -1,0 +1,16 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "deepak.sharma@trigya.co",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"express": "^4.18.2",
+		"zcatalyst-sdk-node": "*"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "deployment": {
+    "name": "backend",
+    "stack": "node20",
+    "type": "advancedio",
+    "env_variables": {
+      "SOURCE_DIR":     "C:\\Automation Storage\\Source",
+      "DEST_DIR":       "C:\\Automation Storage\\Destination",
+      "LOG_DIR":        "C:\\Automation Storage\\Logs",
+      "TABLE_NAME":     "CSVImports",
+      "STRATUS_BUCKET": "csvfiless",
+      "PROJECT_ID":     "31902000000145220",
+      "CHUNK_SIZE":     "20",
+      "CATALYST_ENV":   "development"
+    }
+  },
+  "execution": {
+    "main": "index.js"
+  }
+}
