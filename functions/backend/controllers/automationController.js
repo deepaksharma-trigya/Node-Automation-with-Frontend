@@ -297,52 +297,6 @@ const getStatsHandler = async (req, res) => {
 // ─────────────────────────────────────────────
 //  SAVE CONFIG — writes env vars to catalyst-config.json
 // ─────────────────────────────────────────────
-// const saveConfigHandler = (req, res) => {
-//   const {
-//     SOURCE_DIR, DEST_DIR, LOG_DIR, TABLE_NAME,
-//     STRATUS_BUCKET, PROJECT_ID, CHUNK_SIZE, CATALYST_ENV,
-//   } = req.body;
-
-//   // Find catalyst-config.json — it lives at project root (2 levels up from functions/backend)
-//   const configPath = path.join(__dirname, '..', '..', '..', 'catalyst-config.json');
-
-//   if (!fs.existsSync(configPath)) {
-//     return res.status(404).json({ error: `catalyst-config.json not found at: ${configPath}` });
-//   }
-
-//   try {
-//     const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
-
-//     // Update env_variables inside deployment block
-//     if (!config.deployment) config.deployment = {};
-//     config.deployment.env_variables = {
-//       ...(config.deployment.env_variables || {}),
-//       ...(SOURCE_DIR     && { SOURCE_DIR }),
-//       ...(DEST_DIR       && { DEST_DIR }),
-//       ...(LOG_DIR        && { LOG_DIR }),
-//       ...(TABLE_NAME     && { TABLE_NAME }),
-//       ...(STRATUS_BUCKET && { STRATUS_BUCKET }),
-//       ...(PROJECT_ID     && { PROJECT_ID }),
-//       ...(CHUNK_SIZE     && { CHUNK_SIZE }),
-//       ...(CATALYST_ENV   && { CATALYST_ENV }),
-//     };
-
-//     fs.writeFileSync(configPath, JSON.stringify(config, null, 2), 'utf-8');
-
-//     res.status(200).json({
-//       status:  'success',
-//       message: 'Configuration saved. Restart catalyst serve for changes to take effect.',
-//       saved:   config.deployment.env_variables,
-//     });
-//   } catch (err) {
-//     res.status(500).json({ error: `Failed to save config: ${err.message}` });
-//   }
-// };
-
-
-// ─────────────────────────────────────────────
-//  SAVE CONFIG — writes env vars to catalyst-config.json
-// ─────────────────────────────────────────────
 const saveConfigHandler = (req, res) => {
   const {
     SOURCE_DIR, DEST_DIR, LOG_DIR, TABLE_NAME,
@@ -402,9 +356,6 @@ const saveConfigHandler = (req, res) => {
     res.status(500).json({ error: `Failed to save config: ${err.message}` });
   }
 };
-
-
-
 
 // ─────────────────────────────────────────────
 //  UPLOAD CSV — saves uploaded CSV to SOURCE_DIR
@@ -486,36 +437,6 @@ const getConfigHandler = (req, res) => {
     res.status(500).json({ error: `Failed to read config: ${err.message}` });
   }
 };
-
-// const getConfigHandler = (req, res) => {
-//   const configPath = path.join(__dirname, '..', '..', '..', 'catalyst-config.json');
-  
-//   if (!fs.existsSync(configPath)) {
-//     return res.status(404).json({ error: 'Config file not found' });
-//   }
-  
-//   try {
-//     const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
-//     const envVars = config.deployment?.env_variables || {};
-    
-//     res.status(200).json({
-//       status: 'success',
-//       config: {
-//         SOURCE_DIR: envVars.SOURCE_DIR || CONFIG.sourceDir,
-//         DEST_DIR: envVars.DEST_DIR || CONFIG.destDir,
-//         LOG_DIR: envVars.LOG_DIR || CONFIG.logDir,
-//         TABLE_NAME: envVars.TABLE_NAME || CONFIG.tableName,
-//         STRATUS_BUCKET: envVars.STRATUS_BUCKET || CONFIG.stratusBucket,
-//         PROJECT_ID: envVars.PROJECT_ID || CONFIG.projectId,
-//         CHUNK_SIZE: envVars.CHUNK_SIZE || CONFIG.chunkSize,
-//         CATALYST_ENV: envVars.CATALYST_ENV || CONFIG.environment,
-//       }
-//     });
-//   } catch (err) {
-//     res.status(500).json({ error: `Failed to read config: ${err.message}` });
-//   }
-// };
-
 
 module.exports = {
   healthCheck,

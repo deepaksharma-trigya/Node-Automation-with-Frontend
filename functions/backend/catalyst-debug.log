@@ -1,98 +1,64 @@
-[debug] [2026-04-02T10:00:54.518Z] : 
-[debug] [2026-04-02T10:00:54.519Z] : ----------------------------------------------------------------------
-[debug] [2026-04-02T10:00:54.520Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
-[debug] [2026-04-02T10:00:54.520Z] : CLI Version:  1.25.1
-[debug] [2026-04-02T10:00:54.520Z] : Platform:     win32
-[debug] [2026-04-02T10:00:54.521Z] : Node Version: v24.14.0
-[debug] [2026-04-02T10:00:54.521Z] : Time:         Thu Apr 02 2026 15:30:54 GMT+0530 (India Standard Time)
-[debug] [2026-04-02T10:00:54.521Z] : ----------------------------------------------------------------------
-[debug] [2026-04-02T10:00:54.521Z] : 
-[debug] [2026-04-02T10:00:55.671Z] : > authorizing via signed-in user option
-[debug] [2026-04-02T10:00:55.671Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.grid.READ","ZohoCatalyst.grid.terminate","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
-[debug] [2026-04-02T10:00:55.688Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/31902000000145220 
+[debug] [2026-04-06T04:42:04.144Z] : 
+[debug] [2026-04-06T04:42:04.145Z] : ----------------------------------------------------------------------
+[debug] [2026-04-06T04:42:04.145Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2026-04-06T04:42:04.145Z] : CLI Version:  1.25.1
+[debug] [2026-04-06T04:42:04.145Z] : Platform:     win32
+[debug] [2026-04-06T04:42:04.146Z] : Node Version: v24.14.0
+[debug] [2026-04-06T04:42:04.146Z] : Time:         Mon Apr 06 2026 10:12:04 GMT+0530 (India Standard Time)
+[debug] [2026-04-06T04:42:04.146Z] : ----------------------------------------------------------------------
+[debug] [2026-04-06T04:42:04.146Z] : 
+[debug] [2026-04-06T04:42:05.284Z] : > authorizing via signed-in user option
+[debug] [2026-04-06T04:42:05.287Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.grid.READ","ZohoCatalyst.grid.terminate","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2026-04-06T04:42:05.328Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/31902000000145220 
 
-[debug] [2026-04-02T10:00:56.638Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 02 Apr 2026 10:00:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+[debug] [2026-04-06T04:42:06.227Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 06 Apr 2026 04:41:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
 
-[debug] [2026-04-02T10:00:56.644Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/31902000000145220/environment 
+[debug] [2026-04-06T04:42:06.233Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/31902000000145220/environment 
 
-[debug] [2026-04-02T10:00:56.944Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 02 Apr 2026 10:00:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+[debug] [2026-04-06T04:42:06.531Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 06 Apr 2026 04:41:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
 
-[debug] [2026-04-02T10:00:57.132Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/get-details 
+[debug] [2026-04-06T04:42:06.685Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/get-details 
 Query params: {"feature_name":"runtime"}
 
-[debug] [2026-04-02T10:00:57.429Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 02 Apr 2026 10:00:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+[debug] [2026-04-06T04:42:06.985Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 06 Apr 2026 04:41:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
 
-[debug] [2026-04-02T10:00:57.432Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/31902000000145220/function 
+[debug] [2026-04-06T04:42:06.990Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/31902000000145220/function 
 Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
 
-[debug] [2026-04-02T10:00:57.735Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 02 Apr 2026 10:00:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+[debug] [2026-04-06T04:42:07.288Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 06 Apr 2026 04:41:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
 
-[debug] [2026-04-02T10:00:57.738Z] : unknown eol undefined hence skipping check
-[info] [2026-04-02T10:01:03.080Z] : Skipping API Gateway rules
-[info] [2026-04-02T10:01:03.106Z] : 
-[info] [2026-04-02T10:01:03.125Z] :  >>>>>>>>>>>>> Advanced I/O <<<<<<<<<<< 
-[info] [2026-04-02T10:01:03.129Z] : ℹ backend: http://localhost:3000/server/backend/
-[info] [2026-04-02T10:01:03.138Z] : 
-[info] [2026-04-02T10:01:12.558Z] : [1775124072557]  "OPTIONS"  "/server/backend/stats"
-[info] [2026-04-02T10:01:12.564Z] : [1775124072564]  "OPTIONS"  "/server/backend/diagnose"
-[info] [2026-04-02T10:01:12.567Z] : [1775124072567]  "OPTIONS"  "/server/backend/stats"
-[info] [2026-04-02T10:01:12.572Z] : [1775124072569]  "OPTIONS"  "/server/backend/diagnose"
-[info] [2026-04-02T10:01:12.822Z] : [1775124072822]  "GET"  "/server/backend/stats"
-[info] [2026-04-02T10:01:13.140Z] : [1775124073140]  "GET"  "/server/backend/diagnose"
-[info] [2026-04-02T10:01:13.451Z] : [1775124073450]  "GET"  "/server/backend/diagnose"
-[info] [2026-04-02T10:01:15.408Z] : [1775124075408]  "GET"  "/server/backend/stats"
-[info] [2026-04-02T10:01:29.182Z] : [1775124089170]  "OPTIONS"  "/server/backend/logs"
-[info] [2026-04-02T10:01:29.480Z] : [1775124089479]  "OPTIONS"  "/server/backend/logs"
-[info] [2026-04-02T10:01:29.515Z] : [1775124089515]  "GET"  "/server/backend/logs"
-[info] [2026-04-02T10:01:29.842Z] : [1775124089841]  "GET"  "/server/backend/logs"
-[info] [2026-04-02T10:01:36.529Z] : [1775124096528]  "OPTIONS"  "/server/backend/run-pipeline"
-[info] [2026-04-02T10:01:36.863Z] : [1775124096862]  "GET"  "/server/backend/run-pipeline"
-[info] [2026-04-02T10:01:37.031Z] : [1775124097018]  "GET"  "/server/backend/logs/latest/stream"
-[info] [2026-04-02T10:01:42.787Z] : [1775124102783]  "OPTIONS"  "/server/backend/stats"
-[info] [2026-04-02T10:01:43.109Z] : [1775124103108]  "GET"  "/server/backend/stats"
-[info] [2026-04-02T10:02:00.204Z] : [1775124120203]  "OPTIONS"  "/server/backend/logs"
-[info] [2026-04-02T10:02:00.208Z] : [1775124120207]  "OPTIONS"  "/server/backend/logs"
-[info] [2026-04-02T10:02:00.469Z] : [1775124120468]  "GET"  "/server/backend/logs"
-[info] [2026-04-02T10:02:00.533Z] : [1775124120527]  "GET"  "/server/backend/logs"
-[info] [2026-04-02T10:02:01.674Z] : [1775124121673]  "OPTIONS"  "/server/backend/logs/automation_2026-04-02T10-01-36.log"
-[info] [2026-04-02T10:02:02.002Z] : [1775124122001]  "GET"  "/server/backend/logs/automation_2026-04-02T10-01-36.log"
-[info] [2026-04-02T10:29:11.929Z] : [1775125751928]  "OPTIONS"  "/server/backend/stats"
-[info] [2026-04-02T10:29:11.931Z] : [1775125751930]  "OPTIONS"  "/server/backend/diagnose"
-[info] [2026-04-02T10:29:11.932Z] : [1775125751932]  "OPTIONS"  "/server/backend/stats"
-[info] [2026-04-02T10:29:11.934Z] : [1775125751933]  "OPTIONS"  "/server/backend/diagnose"
-[info] [2026-04-02T10:29:12.191Z] : [1775125752190]  "GET"  "/server/backend/stats"
-[info] [2026-04-02T10:29:12.252Z] : [1775125752252]  "GET"  "/server/backend/diagnose"
-[info] [2026-04-02T10:29:12.258Z] : [1775125752258]  "GET"  "/server/backend/diagnose"
-[info] [2026-04-02T10:29:13.447Z] : [1775125753446]  "GET"  "/server/backend/stats"
-[info] [2026-04-02T10:29:28.606Z] : [1775125768605]  "OPTIONS"  "/server/backend/run-pipeline"
-[info] [2026-04-02T10:29:28.917Z] : [1775125768916]  "GET"  "/server/backend/run-pipeline"
-[info] [2026-04-02T10:29:28.955Z] : [1775125768954]  "GET"  "/server/backend/logs/latest/stream"
-[info] [2026-04-02T10:29:34.446Z] : [1775125774445]  "OPTIONS"  "/server/backend/stats"
-[info] [2026-04-02T10:29:34.752Z] : [1775125774752]  "GET"  "/server/backend/stats"
-[info] [2026-04-02T10:55:27.328Z] : [1775127327327]  "OPTIONS"  "/server/backend/logs"
-[debug] [2026-04-02T10:55:27.330Z] : > refreshing access token <
-[debug] [2026-04-02T10:55:27.334Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
-<request body omitted>
-
-[info] [2026-04-02T10:55:27.348Z] : [1775127327348]  "OPTIONS"  "/server/backend/logs"
-[debug] [2026-04-02T10:55:27.349Z] : > refreshing access token <
-[debug] [2026-04-02T10:55:27.350Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
-<request body omitted>
-
-[debug] [2026-04-02T10:55:28.310Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 02 Apr 2026 10:55:18 GMT","content-type":"application/json;charset=UTF-8","content-length":"2524","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2026-04-02T10:55:28.332Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Thu, 02 Apr 2026 10:55:18 GMT","content-type":"application/json;charset=UTF-8","content-length":"2524","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[info] [2026-04-02T10:55:28.353Z] : [1775127328352]  "GET"  "/server/backend/logs"
-[info] [2026-04-02T10:55:28.665Z] : [1775127328664]  "GET"  "/server/backend/logs"
-[info] [2026-04-02T11:02:17.250Z] : Shutting down server
-[error] [2026-04-02T11:02:17.259Z] : uncaughtException: Cannot write headers after they are sent to the client
+[debug] [2026-04-06T04:42:07.291Z] : unknown eol undefined hence skipping check
+[info] [2026-04-06T04:42:14.204Z] : Skipping API Gateway rules
+[info] [2026-04-06T04:42:14.272Z] : 
+[info] [2026-04-06T04:42:14.416Z] :  >>>>>>>>>>>>> Advanced I/O <<<<<<<<<<< 
+[info] [2026-04-06T04:42:14.553Z] : ℹ backend: http://localhost:3000/server/backend/
+[info] [2026-04-06T04:42:14.585Z] : 
+[info] [2026-04-06T04:42:34.509Z] : [1775450554508]  "OPTIONS"  "/server/backend/stats"
+[info] [2026-04-06T04:42:34.516Z] : [1775450554516]  "OPTIONS"  "/server/backend/diagnose"
+[info] [2026-04-06T04:42:34.520Z] : [1775450554520]  "OPTIONS"  "/server/backend/stats"
+[info] [2026-04-06T04:42:34.532Z] : [1775450554524]  "OPTIONS"  "/server/backend/diagnose"
+[info] [2026-04-06T04:42:34.805Z] : [1775450554804]  "GET"  "/server/backend/stats"
+[info] [2026-04-06T04:42:35.122Z] : [1775450555121]  "GET"  "/server/backend/diagnose"
+[info] [2026-04-06T04:42:35.432Z] : [1775450555431]  "GET"  "/server/backend/diagnose"
+[info] [2026-04-06T04:42:36.117Z] : [1775450556117]  "GET"  "/server/backend/stats"
+[info] [2026-04-06T04:42:43.764Z] : [1775450563764]  "OPTIONS"  "/server/backend/run-pipeline"
+[info] [2026-04-06T04:42:44.079Z] : [1775450564078]  "GET"  "/server/backend/run-pipeline"
+[info] [2026-04-06T04:42:44.133Z] : [1775450564133]  "GET"  "/server/backend/logs/latest/stream"
+[info] [2026-04-06T04:42:49.744Z] : [1775450569740]  "OPTIONS"  "/server/backend/stats"
+[info] [2026-04-06T04:42:50.060Z] : [1775450570060]  "GET"  "/server/backend/stats"
+[info] [2026-04-06T04:43:00.603Z] : [1775450580603]  "OPTIONS"  "/server/backend/logs"
+[info] [2026-04-06T04:43:00.605Z] : [1775450580605]  "OPTIONS"  "/server/backend/logs"
+[info] [2026-04-06T04:43:00.869Z] : [1775450580869]  "GET"  "/server/backend/logs"
+[info] [2026-04-06T04:43:00.915Z] : [1775450580915]  "GET"  "/server/backend/logs"
+[info] [2026-04-06T04:43:04.627Z] : [1775450584626]  "OPTIONS"  "/server/backend/logs/automation_2026-04-06T04-42-44.log"
+[info] [2026-04-06T04:43:04.937Z] : [1775450584936]  "GET"  "/server/backend/logs/automation_2026-04-06T04-42-44.log"
+[info] [2026-04-06T04:44:20.365Z] : 
+change of services\automationService.js in backend detected. Preparing your function, please wait...
+[error] [2026-04-06T04:44:20.465Z] : uncaughtException: Cannot write headers after they are sent to the client
 Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
     at ServerResponse.writeHead (node:_http_server:356:11)
     at ProxyServer.<anonymous> (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\master\utils.js:73:17)
@@ -104,14 +70,14 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the c
     at Socket.emit (node:events:508:28)
     at emitErrorNT (node:internal/streams/destroy:170:8)
     at emitErrorCloseNT (node:internal/streams/destroy:129:3)
-[error] [2026-04-02T11:02:17.264Z] : ✖ An unexpected error has occurred.
-[debug] [2026-04-02T11:02:17.264Z] : Error Stack: CatalystError: An unexpected error has occurred.
+[error] [2026-04-06T04:44:20.484Z] : ✖ An unexpected error has occurred.
+[debug] [2026-04-06T04:44:20.485Z] : Error Stack: CatalystError: An unexpected error has occurred.
     at exports.default (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:20:17)
     at process.<anonymous> (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:115:28)
     at process.emit (node:events:520:35)
     at process.processEmit [as emit] (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
     at process._fatalException (node:internal/process/execution:159:25)
-[debug] [2026-04-02T11:02:17.266Z] : Original Error: Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+[debug] [2026-04-06T04:44:20.485Z] : Original Error: Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
     at ServerResponse.writeHead (node:_http_server:356:11)
     at ProxyServer.<anonymous> (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\master\utils.js:73:17)
     at ProxyServer.emit (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\eventemitter3\index.js:184:35)
@@ -124,39 +90,5 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the c
     at emitErrorCloseNT (node:internal/streams/destroy:129:3) {
   code: 'ERR_HTTP_HEADERS_SENT'
 }
-[debug] [2026-04-02T11:02:17.267Z] : Error Status: 500
-[info] [2026-04-02T11:02:17.267Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
-[error] [2026-04-02T11:02:17.268Z] : uncaughtException: Cannot write headers after they are sent to the client
-Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
-    at ServerResponse.writeHead (node:_http_server:356:11)
-    at ProxyServer.<anonymous> (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\master\utils.js:73:17)
-    at ProxyServer.emit (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\eventemitter3\index.js:184:35)
-    at ClientRequest.proxyError (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\http-proxy\lib\http-proxy\passes\web-incoming.js:158:18)
-    at ClientRequest.emit (node:events:508:28)
-    at emitErrorEvent (node:_http_client:108:11)
-    at Socket.socketErrorListener (node:_http_client:575:5)
-    at Socket.emit (node:events:508:28)
-    at emitErrorNT (node:internal/streams/destroy:170:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
-[error] [2026-04-02T11:02:17.270Z] : ✖ An unexpected error has occurred.
-[debug] [2026-04-02T11:02:17.270Z] : Error Stack: CatalystError: An unexpected error has occurred.
-    at exports.default (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:20:17)
-    at process.<anonymous> (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:115:28)
-    at process.emit (node:events:520:35)
-    at process.processEmit [as emit] (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
-    at process._fatalException (node:internal/process/execution:159:25)
-[debug] [2026-04-02T11:02:17.272Z] : Original Error: Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
-    at ServerResponse.writeHead (node:_http_server:356:11)
-    at ProxyServer.<anonymous> (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\master\utils.js:73:17)
-    at ProxyServer.emit (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\eventemitter3\index.js:184:35)
-    at ClientRequest.proxyError (C:\Users\Trigya Innovation\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\http-proxy\lib\http-proxy\passes\web-incoming.js:158:18)
-    at ClientRequest.emit (node:events:508:28)
-    at emitErrorEvent (node:_http_client:108:11)
-    at Socket.socketErrorListener (node:_http_client:575:5)
-    at Socket.emit (node:events:508:28)
-    at emitErrorNT (node:internal/streams/destroy:170:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:129:3) {
-  code: 'ERR_HTTP_HEADERS_SENT'
-}
-[debug] [2026-04-02T11:02:17.273Z] : Error Status: 500
-[info] [2026-04-02T11:02:17.274Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2026-04-06T04:44:20.485Z] : Error Status: 500
+[info] [2026-04-06T04:44:20.487Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
